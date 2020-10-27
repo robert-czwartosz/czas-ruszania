@@ -69,7 +69,7 @@ Zmiana wybór czy zmieniana jest wysokość czy szerokość odbywa się poprzez 
 * **h** - zmiana wysokości
 
 Zmiana wymiarów i pozycji pól odbywa się poprzez:
-* **+**/**-** - zwiększanie/zmniejszanie szerokości lub wysokości pola/okna
+* **+** / **-** - zwiększanie/zmniejszanie szerokości lub wysokości pola/okna
 * **2**, **8**, **4**, **6** - sterowanie pozycją
 
 Pozostałe sterowania:
