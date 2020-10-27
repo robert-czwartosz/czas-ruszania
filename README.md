@@ -39,59 +39,59 @@ Najpierw należy ustawić parametry, które są ustawiane ręcznie, w pliku konf
 ### Wydobycie teł
 Nagranie jest przeglądane za pomocą programu [slider.py](https://github.com/robert-czwartosz/czas-ruszania/blob/main/slider.py) w celu wydobycia odpowiedniej liczby teł. Zalecane jest, aby w tła były zapisywane co około pół godziny nagrania.
 
-STEROWANIE
-* n - 1s do przodu
-* b - 1s do tyłu
-* m - 7.5min do przodu
-* v - 7.5min do tyłu
-* , - 15 min do przodu
-* c - 15 min do tyłu
-* . - 30 min do przodu
-* x - 30 min do tyłu
-* / - 1h do przodu
-* z - 1h do tyłu
-
-* s - zapisz tło do katalogu backgrounds
-* q - zakończ
+STEROWANIE:
+	n - 1s do przodu
+	b - 1s do tyłu
+	m - 7.5min do przodu
+	v - 7.5min do tyłu
+	, - 15 min do przodu
+	c - 15 min do tyłu
+	. - 30 min do przodu
+	x - 30 min do tyłu
+	/ - 1h do przodu
+	z - 1h do tyłu
+	
+	s - zapisz tło do katalogu backgrounds
+	q - zakończ
 
 ### Kalibracja
 Następnie wykonywana jest kalibracja, czyli ułożenie miejsc na odpowiednich pozycjach i określenie ich wymiarów. W tej czynności program [calib.py](https://github.com/robert-czwartosz/czas-ruszania/blob/main/calib.py) pełni funkcję pomocniczą.
 
 Zmiana konfigurowanego pola odbywa się poprzez następujące klawisze:
 
-* a - pole nr 1 - pojazd 1
-* b - pole nr 2 - pojazd 2
-* c - pole nr 3 - przejezdność skrzyżowania
-* x - okno
+* **a** - pole nr 1 - pojazd 1
+* **b** - pole nr 2 - pojazd 2
+* **c** - pole nr 3 - przejezdność skrzyżowania
+* **x** - okno
 
 Zmiana wybór czy zmieniana jest wysokość czy szerokość odbywa się poprzez klawisze:
-* w - zmiana szerokości
-* h - zmiana wysokości
+* **w** - zmiana szerokości
+* **h** - zmiana wysokości
 
 Zmiana wymiarów i pozycji pól odbywa się poprzez:
-* +/- - zwiększanie/zmniejszanie szerokości lub wysokości pola/okna
-* 2, 8, 4, 6 - sterowanie pozycją
+* **+**/**-** - zwiększanie/zmniejszanie szerokości lub wysokości pola/okna
+* **2**, **8**, **4**, **6** - sterowanie pozycją
 
 Pozostałe sterowania:
-* s - zapisz
-* q - zakończ
+* **s** - zapisz
+* **q** - zakończ
 
 ### Pomiary czasów reakcji
 Po przygotowaniu teł i kalibracji uruchamiany jest skrypt [czasRuszania.py](https://github.com/robert-czwartosz/czas-ruszania/blob/main/czasRuszania.py). Ten skrypt mierzy czasy ruszania i odrzuca pomiary wykonane w złych warunkach np.: przesłonięcie przez  autobus lub korek. Nie zawsze program rozpoznaje czy pomiar wykonany był w odpowiednich warunkach. Zatem należy przejrzeć momenty wykonywania pomiarów. Zmierzone czasy są zapisywane do pliku **czasy.txt**. Natomiast czasy wraz z momentami rozpoczęcia i zakończenia pomiaru są zapisywane do pliku **czasy_ext.txt**.
 
 STEROWANIE:
 
-* z - tempo odtwarzania = 1
-* x - tempo odtwarzania = 10
-* c - tempo odtwarzania = 100
-* v - zatrzymanie nagrania(tempo odtwarzania = 0)
-
-* q - zakończ
+	z - tempo odtwarzania = 1
+	x - tempo odtwarzania = 10
+	c - tempo odtwarzania = 100
+	v - zatrzymanie nagrania(tempo odtwarzania = 0)
+	
+	q - zakończ
 
 ### Przeglądanie pomiarów
 Skrypt [test.py](https://github.com/robert-czwartosz/czas-ruszania/blob/main/test.py) pomaga użytkownikowi przeglądać klatka po klatce momenty wykonania pomiarów. Momentem wykonania pomiaru jest czas  Skrypt korzysta z plików **czasy_ext.txt** oraz **nagranie.mp4**. Jeśli pomiar był wykonany w odpowiednich warunkach użytkownik może zatwierdzić go klawiszem “A”, lub w przeciwnym razie odrzucić klawiszem “P”. Po przejrzeniu wszystkich pomiarów, wszystkie pomiary wykonane w odpowiednich warunkach są zapisywane do plików **czasy_ok.txt** oraz **czasy_ok_ext.txt**. Analogicznie postępuje się z odrzuconymi pomiarami.
 
-STEROWANIE
+STEROWANIE:
 
 	n - 1 klatka do przodu
 	b - 1 klatka do tyłu
