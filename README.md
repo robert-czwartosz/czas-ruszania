@@ -89,7 +89,7 @@ STEROWANIE:
 	q - zakończ
 
 ### Przeglądanie pomiarów
-Skrypt [test.py](https://github.com/robert-czwartosz/czas-ruszania/blob/main/test.py) pomaga użytkownikowi przeglądać klatka po klatce momenty wykonania pomiarów. Momentem wykonania pomiaru jest czas  Skrypt korzysta z plików **czasy_ext.txt** oraz **nagranie.mp4**. Jeśli pomiar był wykonany w odpowiednich warunkach użytkownik może zatwierdzić go klawiszem “A”, lub w przeciwnym razie odrzucić klawiszem “P”. Po przejrzeniu wszystkich pomiarów, wszystkie pomiary wykonane w odpowiednich warunkach są zapisywane do plików **czasy_ok.txt** oraz **czasy_ok_ext.txt**. Analogicznie postępuje się z odrzuconymi pomiarami.
+Skrypt [test.py](https://github.com/robert-czwartosz/czas-ruszania/blob/main/test.py) pomaga użytkownikowi przeglądać klatka po klatce momenty wykonania pomiarów. Momentem wykonania pomiaru jest przedział czasu pomiędzy ruszeniem pojazdu nr 1, a ruszeniem pojazdu nr 2. Skrypt korzysta z plików **czasy_ext.txt** oraz **nagranie.mp4**. Jeśli pomiar był wykonany w odpowiednich warunkach użytkownik może zatwierdzić go klawiszem “A”, lub w przeciwnym razie odrzucić klawiszem “P”. Po przejrzeniu wszystkich pomiarów, wszystkie pomiary wykonane w odpowiednich warunkach są zapisywane do plików **czasy_ok.txt** oraz **czasy_ok_ext.txt**. Analogicznie postępuje się z odrzuconymi pomiarami.
 
 STEROWANIE:
 
