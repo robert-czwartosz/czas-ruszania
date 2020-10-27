@@ -10,7 +10,7 @@
 * [Bibliografia](#bibliografia)
 
 ## Cel projektu
-Projekt zrealizowałem w trakcie studiów w ramach publikacji "Communication management to improve the efficiency of intelligent transport systems". Celem projektu było stworzenie oprogramowania do pomiaru czasów reakcji kierowców na podstawie nagrania ze skrzyżowania w Warszawie.
+Projekt zrealizowałem w trakcie studiów w ramach publikacji ["Communication management to improve the efficiency of intelligent transport systems"](https://www.mdpi.com/1996-1073/13/12/3087). Celem projektu było stworzenie oprogramowania do pomiaru czasów reakcji kierowców na podstawie nagrania ze skrzyżowania w Warszawie.
 
 ## Technologie
 * Python 3
