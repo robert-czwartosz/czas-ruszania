@@ -93,14 +93,14 @@ Skrypt [test.py](https://github.com/robert-czwartosz/czas-ruszania/blob/main/tes
 
 STEROWANIE
 
-n - 1 klatka do przodu
-b - 1 klatka do tyłu
+	n - 1 klatka do przodu
+	b - 1 klatka do tyłu
 
-a - akceptacja pomiaru
-p - odrzucenie pomiaru
-o - odrzucenie pomiaru wraz z napisaniem uwagi dotyczącej pomiaru
+	a - akceptacja pomiaru
+	p - odrzucenie pomiaru
+	o - odrzucenie pomiaru wraz z napisaniem uwagi dotyczącej pomiaru
 
-q - zakończ
+	q - zakończ
 
 ## TODO
 * Graficzny interfejs użytkownika
